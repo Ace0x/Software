@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.border {
+    border: 0.5em solid;
+    border-color: white;
+    
+}
+
+.border_left {
+    border-left: 0.5em solid;
+    border-color: blue;
+}
+
+.border_right {
+    border-right: 0.5em solid;
+    border-color: purple;
+}
+
+.border_top {
+    border-top: 0.5em solid;
+    border-color: red;
+}
+.border_bottom {
+    border-bottom: 0.5em solid;
+    border-color: brown;
+}
+
+.border_radius {
+    border: 0.5em solid;
+    border-color: aqua;
+    border-radius: 20%;
+}
+
+.background_image {
+    color: black;
+    height: 10em;
+    background-image: url('https://c.tenor.com/K9-SqJMNjkEAAAAC/emotional-damage.gif');
+}
+
+.color {
+    color:yellowgreen;
+}
+
+.font {
+    font: 1.2em "Rubik Puddles", sans-serif;
+    color: wheat;
+}
+
+.font_family {
+    font-family: "Beau Rivage", cursive;
+    font-size: 1.5em;
+}
+
+.font_style_weight {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.width_height {
+    width: 60%;
+    height: 20em;
+    background-color: blueviolet;
+}
+
