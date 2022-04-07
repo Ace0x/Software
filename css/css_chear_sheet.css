@@ -65,3 +65,33 @@ body {
     background-color: blueviolet;
 }
 
+.list_style {
+    list-style:georgian;
+}
+
+.margin {
+    margin: 5em;
+}
+
+.padding {
+    padding: 10em;
+}
+
+.overflow {
+    height: 8em;
+    overflow: scroll;
+}
+
+.display {
+    display:grid;
+}
+
+.position {
+    position: relative;
+    left: 40px;
+    right: 50px;
+}
+
+.filter {
+    filter: blur(1px);
+}
