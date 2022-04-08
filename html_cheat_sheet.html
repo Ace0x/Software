@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Some elements have external examples when needed, the rest are within the explanations themselves</p>
+    <p>Some elements have external examples when needed, the rest are within the explanations themselves. All examples and definitions were talen from <a href="https://devdocs.io/">devdocs.io</a></p>
     <nav>
         <h3 class="SubT">nav-Navigation</h3>
         This text is inside a navbar. I should probably link to more features of the page, but no, I'm lazy.
@@ -16,6 +16,8 @@
     </nav>
     <div class="Headers">
         <h3 class="SubT">H#-Header</h3>
+        <p>The h tag represents the six levels of section headings. 
+            h1 is the highest section level and h6 is the lowest.Ex:</p>
         <h1>Header 1</h1>
         <h2>Header 2</h2>
         <h3>Header 3</h3>
@@ -26,26 +28,27 @@
     <div class="DivExample">
         <h3 class="SubT">Div</h3>
         <h3>This header is inside a div</h3>
-        <p>This paragraph is inside a div</p>
-        <p>Divs have no special meaning, like her dms</p>
+        <p>HTML element that is the generic container for flow content. 
+            It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).</p>
+        <p>Divs have no special meaning, like her dms <a href="https://devdocs.io/html/element/div">Ex</a></p>
     </div>
     <article class="ArticleExample">
         <h3 class="SubT">article-Article</h3>
         <h3>This header is inside an article</h3>
-        <p>The <article> HTML element represents a self-contained composition in a document, page, 
+        <p>HTML element that represents a self-contained composition in a document, page, 
             application, or site, which is intended to be independently distributable or reusable 
             (e.g., in syndication). Examples include: a forum post, a magazine or newspaper article,
              or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, 
              or any other independent item of content.
         </p>
-        <p>essentially a div but with a purpose in life</p>
+        <p>essentially a div but with a purpose in life <a href="https://devdocs.io/html/element/article">Ex</a></p>
     </article>
     <section>
         <h3 class="SubT">section-Section</h3>
         <h3>This header is inside a section</h3>
         <p>The section HTML element represents a generic standalone section of a document, 
             which doesn't have a more specific semantic element to represent it. Sections 
-            should always have a heading, with very few exceptions.</p>
+            should always have a heading, with very few exceptions. <a href="https://devdocs.io/html/element/section">Ex</a></p>
     </section>
     <span class="SpanExample">
         <h3 class="SubT">span-Span</h3>
@@ -53,31 +56,39 @@
         <p>generic inline container for phrasing content, which does not inherently 
             represent anything. It can be used to group elements for styling purposes 
             (using the class or id attributes), or because they share attribute values, such as lang. 
-            It should be used only when no other semantic element is appropriate. </p>
+            It should be used only when no other semantic element is appropriate. <a href="https://devdocs.io/html/element/span">Ex</a> </p>
     </span>
     <h3 class="SubT">strong-Strong</h3>
-    <strong>This text is strong, or just bold (represents an important word or words. It essentially does the same thing as bold but the strong tag represents importance)</strong>
+    <strong>Ex:This text is strong, or just bold (represents an important word or words. It essentially does the same thing as bold but the strong tag represents importance)</strong>
     <h3 class="SubT">br-Break</h3>
+    <p>HTML element that produces a line break in text (carriage-return). 
+        It is useful for writing a poem or an address, where the division of lines is significant E:.</p>
     <br>
     <p>Notice how there's a space there? Yeah that's a break</p>
     <br>
     <h3 class="SubT">i-Italics</h3>
+    <p>Offset text that is styled in italics</p>
     <i>This text is smooth...just like my brain (italics)</i>
     <br>
     <h3 class="SubT">u-underline</h3>
+    <p>The u HTML element represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation. This is 
+        rendered by default as a simple solid underline, but may be altered using CSS.</p>
     <u>This text is supported or just underlined lmao</u>
     <h3 class="SubT">b-Bold</h3>
-    <b>This text is offset text that is styled in bold</b>
+    <p>This text is offset text that is styled in bold:</p>
+    <b>Bold of you to assume I was going to finish this in time</b>
     <br>
     <h3 class="SubT">strike-Strike</h3>
-    <p>Crossing out</p>
+    <p>Offset text that crosses out Ex:</p>
     <p>Kill confirmed</p><strike>Andrew</strike>
     <br>
     <h3 class="SubT">small-Small</h3>
+    <p>Text that represents small prints or side content Ex:</p>
     <small>I'm small and used to represent small prints or side contents</small>
     <br>
     <h3 class="SubT">em-Emphasis</h3>
-    <em>Emphasis dude!, Emphasis on the text. The tag determines that there should be Emphasis in this text (or italics 2.0)</em>    
+    <p> Emphasis on the text. The tag determines that there should be Emphasis in this text (or italics 2.0 )Ex:</p>
+    <em>Emphasis dude!</em>    
     <h3 class="SubT">header-Header</h3>
     <p>HTML element that represents introductory content, typically a group of introductory or navigational aids. 
         It may contain some heading elements but also a logo, a search form, an author name, and other elements.</p>
@@ -88,12 +99,17 @@
     <aside>In theory, this text shold be related to something else but this is not the case right now. here's a link with more examples, this one warrants it <a href="https://devdocs.io/html/element/aside">EX</a></aside>
     
     <div class="ListExample">
+        <h3 class="SubT">ul-Unordered List</h3>
+        <p>HTML element that represents an unordered list of items, typically rendered as a 
+            bulleted list.</p>
         <ul>
             <h4>This is an unordered list</h4>
             <li>L1</li>
             <li>L2</li>
             <li>L3</li>
         </ul>
+        <h3 class="SubT">ol-Ordered List List</h3>
+        <p>HTML element that represents an ordered list of items.</p>
         <ol>
             <h4>This is an ordered list</h4>
             <li>L1</li>
@@ -102,6 +118,8 @@
         </ol>
     </div>
     <div class="TableExample">
+        <p>HTML element that represents tabular data — that is, 
+            information presented in a two-dimensional table comprised of rows and columns of cells containing data. Ex:</p>
         <table>
             <th>IM a table H </th>
             <tr>
@@ -117,9 +135,11 @@
         </table>
     </div>
     <div class="">
-    <h3 class="SubT">img-From files</h3>    
+    <h3 class="SubT">img-From files</h3>   
+    <p>Rendered image from local files</p> 
     <img width="60%" src="/images/ugi.jpg" alt="Theres no alt cuz im lazy and so are u">
     <h3 class="SubT">img-From url</h3>
+    <p>Rendered image from web link</p>
     <img width="50%" src="https://i.pinimg.com/originals/f5/3f/5d/f53f5d4194dc7d04f7bfab30a58b903a.png" alt="Trust bru, trust">
     </div>
 
@@ -135,6 +155,7 @@
         <p>HTML element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, 
             depending on the device and user agent. 
             It is one of the most powerful and complex in all of HTML due to the sheer number of combinations of input types and attributes.</p>
+        <p>EX:</p>
         <input type="text">
         <p>text</p>
         <input type="email">
@@ -148,6 +169,9 @@
         <br>
         <button>This is why your PC is full of viruses</button>
     </form>
+    <h3 class="SubT">Footer</h3>
+    <p>The footer HTML element represents a footer for its nearest sectioning content or sectioning root element. 
+        A footer typically contains information about the author of the section, copyright data or links to related documents.</p>
     <footer>This element is a footer, or just the content that nobody reads</footer>
 </body>
 </html>
